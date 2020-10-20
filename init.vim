@@ -1,6 +1,8 @@
 " Before using this config, please install Vundle using the following command
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
 
+" Enable mouse support
+set mouse=a
 
 " VUNDLE Required by Vundle
 set nocompatible
