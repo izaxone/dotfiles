@@ -1,1 +1,2 @@
-# Replace with ZSH Config
+# Alias vi to nvim
+alias vi=nvim
