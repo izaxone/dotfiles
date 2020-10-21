@@ -20,6 +20,10 @@ Plugin 'ferrine/md-img-paste.vim' " GitHub ferrine/md-img-paste.vim
 let g:mdip_imgdir = 'img'
 let g:mdip_imgname = 'image'
 
+" vim-markdown
+Plugin 'godlygeek/tabular' " Aligns text for you GitHub godlygeek/tabular 
+Plugin 'plasticboy/vim-markdown' " GitHub plasticboy/vim-markdown
+
 " VUNDLE Call Vundle
 call vundle#end()
 filetype plugin indent on
