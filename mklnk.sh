@@ -6,15 +6,14 @@ echo "Make sure this directory is in your home directory, and cd into it. Procee
 # Store this directory in case we need to get back to it
 DOTFILEDIR=`pwd`
 
-# Find the relative path of the config directory
-RELDIR=`realpath --relative-to=../.config $DOTFILEDIR`
-echo $RELDIR
-
 # Prepare to create links
 cd ../.config
 
 # NVIM
 echo "NVIM"
-ln -sv $RELDIR/nvim nvim
+pwd
+ln -sv $DOTFILEDIR/nvim ./nvim
 
-
+# ZSH
+echo $DOTFILEDIR
+ln -sv $DOTFILEDIR/.zshrc ../.zshrc
