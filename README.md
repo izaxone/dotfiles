@@ -1,2 +1,2 @@
-# Neovim Configuration
-This repository is my current configuration for [Neovim](https://neovim.io/)
+# Dotfiles
+This repository is my current dotfile configuration for apps like [Neovim](https://neovim.io/)
