@@ -1,3 +1,5 @@
+# Prompt Style
+PROMPT="%B%F{220}[%f%b%B%F{49}@%f%b%F{158}%m%f %F{80}%t%f%B%F{220}]%f%b%B%F{214}%\>>%f%b "
 # Alias vi to nvim
 alias vi=nvim
 
