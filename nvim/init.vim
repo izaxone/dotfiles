@@ -20,3 +20,6 @@ set cursorline
 " Line numbers
 set number "Normal line numbers"
 set relativenumber
+
+" Status Line
+source ~/.config/nvim/statusline.vim
