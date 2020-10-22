@@ -14,3 +14,5 @@ autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownCli
 " https://advancedweb.hu/working-with-the-system-clipboard-in-vim/
 set clipboard=unnamedplus
 
+" Highlight current line
+set cursorline
