@@ -4,35 +4,13 @@
 " Enable mouse support
 set mouse=a
 
-" VUNDLE Required by Vundle
-set nocompatible
-filetype off
-
-" VUNDLE Set runtime path
-set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin()
-
-" VUNDLE Let Vundle Manage Vundle
-Plugin 'VundleVim/Vundle.vim'
-
-" VUNDLE Initialize Plugins
-Plugin 'ferrine/md-img-paste.vim' " GitHub ferrine/md-img-paste.vim
-let g:mdip_imgdir = 'img'
-let g:mdip_imgname = 'image'
-
-" vim-markdown
-Plugin 'godlygeek/tabular' " Aligns text for you GitHub godlygeek/tabular 
-Plugin 'plasticboy/vim-markdown' " GitHub plasticboy/vim-markdown
-
-" VUNDLE Call Vundle
-call vundle#end()
-filetype plugin indent on
-
+" VUNDLE
+source ~/.config/nvim/vundle.vim
 
 " PLUGIN md-img-paste.vim ferrine/md-img-paste.vim
 autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
-
 " Copy-Paste Configuration
 " Set the + register to be the default
 " https://advancedweb.hu/working-with-the-system-clipboard-in-vim/
 set clipboard=unnamedplus
+
