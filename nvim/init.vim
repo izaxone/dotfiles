@@ -16,3 +16,7 @@ set clipboard=unnamedplus
 
 " Highlight current line
 set cursorline
+
+" Line numbers
+set number "Normal line numbers"
+set relativenumber
