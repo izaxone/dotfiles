@@ -5,3 +5,5 @@ alias vi=nvim
 alias dnvim='nvim ~/.config/nvim/init.vim'
 alias dzsh='nvim ~/.zshrc'
 
+# VIM Keybindings
+bindkey -v
