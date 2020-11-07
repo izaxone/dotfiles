@@ -19,6 +19,9 @@ let g:mdip_imgname = 'image'
 Plugin 'godlygeek/tabular' " Aligns text for you GitHub godlygeek/tabular 
 Plugin 'plasticboy/vim-markdown' " GitHub plasticboy/vim-markdown
 
+" Pale Night Theme
+Plugin 'drewtempelmeyer/palenight.vim'
+
 " VUNDLE Call Vundle
 call vundle#end()
 filetype plugin indent on

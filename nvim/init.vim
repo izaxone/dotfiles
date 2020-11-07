@@ -23,3 +23,10 @@ set relativenumber
 
 " Status Line
 source ~/.config/nvim/statusline.vim
+
+" VIM MARKDOWN
+" Adjust new list item indent
+let g:vim_markdown_new_list_item_indent = 2
+
+" LOOK & FEEL
+source ~/.config/nvim/theme.vim
