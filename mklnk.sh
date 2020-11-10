@@ -17,6 +17,9 @@ ln -sv $DOTFILEDIR/nvim ./nvim
 # i3
 ln -sv $DOTFILEDIR/i3 ./i3
 
+# i3status
+ln -sv $DOTFILEDIR/i3status ./i3status
+
 # ZSH
 echo $DOTFILEDIR
 ln -sv $DOTFILEDIR/.zshrc ../.zshrc
