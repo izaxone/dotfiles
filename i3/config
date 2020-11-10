@@ -150,7 +150,7 @@ bindsym $mod+r mode "resize"
 bar {
 	# Put i3 bar on top
 	position top
-        status_command i3status
+        status_command i3status -c ~/.config/i3status/config
 	# Show system tray icons on bar
 	tray_output primary
 }
