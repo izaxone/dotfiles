@@ -2,6 +2,9 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Set displays
+exec sh ~/.xrandr.sh
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -157,3 +160,5 @@ bar {
 
 # Always open GIMP as floating window
 for_window [class="Gimp" instance="gimp"] floating enable
+
+client.focused          #f0f0f0 #f0f0f0 #000000 #2e9ef4   #285577
