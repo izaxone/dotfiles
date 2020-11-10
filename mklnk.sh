@@ -14,6 +14,10 @@ echo "NVIM"
 pwd
 ln -sv $DOTFILEDIR/nvim ./nvim
 
+# i3
+ln -sv $DOTFILEDIR/i3 ./i3
+
 # ZSH
 echo $DOTFILEDIR
 ln -sv $DOTFILEDIR/.zshrc ../.zshrc
+
