@@ -2,6 +2,9 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Stop focusing on mouseover
+focus_follows_mouse no
+
 # Set displays
 exec sh ~/.xrandr.sh
 
@@ -13,7 +16,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:JetBrains-Mono 9
+font pango:Cantarell Bold 10
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -65,7 +68,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+bindsym $mod+q layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -165,4 +168,9 @@ bar {
 # Always open GIMP as floating window
 for_window [class="Gimp" instance="gimp"] floating enable
 
+# Set focused window titlebar to be white
 client.focused          #f0f0f0 #f0f0f0 #000000 #2e9ef4   #285577
+
+# XFCE Screenshooter: Window with cursor
+# Start Clipboard Manager
+exec --no-startup-id xfce4-clipman &
