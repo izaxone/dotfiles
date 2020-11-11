@@ -5,6 +5,10 @@
 # Set displays
 exec sh ~/.xrandr.sh
 
+# Set background
+exec xsetroot -solid "#5c6379"
+exec feh --bg-fill /usr/share/backgrounds/default.png
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
