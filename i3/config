@@ -5,6 +5,7 @@
 # Start compton
 exec compton
 
+
 # Stop focusing on mouseover
 focus_follows_mouse no
 
@@ -161,13 +162,15 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-	# Put i3 bar on top
-	position top
-        status_command i3status -c ~/.config/i3status/config
-	# Show system tray icons on bar
-	tray_output primary
-}
+# bar {
+# 	# Put i3 bar on top
+# 	position top
+#         status_command i3status -c ~/.config/i3status/config
+# 	# Show system tray icons on bar
+# 	tray_output primary
+# }
+
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Always open GIMP as floating window
 for_window [class="Gimp" instance="gimp"] floating enable

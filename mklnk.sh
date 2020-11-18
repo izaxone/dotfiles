@@ -17,6 +17,9 @@ ln -sv $DOTFILEDIR/nvim ./nvim
 # i3
 ln -sv $DOTFILEDIR/i3 ./i3
 
+# Polybar
+ln -sv $DOTFILEDIR/polybar ./polybar
+
 # i3status
 ln -sv $DOTFILEDIR/i3status ./i3status
 
@@ -24,5 +27,4 @@ ln -sv $DOTFILEDIR/i3status ./i3status
 echo $DOTFILEDIR
 ln -sv $DOTFILEDIR/.zshrc ../.zshrc
 
-ln -sv $DOTFILEDIR/polybar ../polybar
 
