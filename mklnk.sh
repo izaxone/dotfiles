@@ -24,3 +24,5 @@ ln -sv $DOTFILEDIR/i3status ./i3status
 echo $DOTFILEDIR
 ln -sv $DOTFILEDIR/.zshrc ../.zshrc
 
+ln -sv $DOTFILEDIR/polybar ../polybar
+
