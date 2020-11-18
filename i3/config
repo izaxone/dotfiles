@@ -178,3 +178,10 @@ client.focused          #f0f0f0 #f0f0f0 #000000 #2e9ef4   #285577
 # XFCE Screenshooter: Window with cursor
 # Start Clipboard Manager
 exec --no-startup-id xfce4-clipman &
+
+# Shortcuts for XFCE Screenshooter
+bindsym $mod+s exec xfce4-screenshooter -w -m -s ~/Desktop
+bindsym $mod+Shift+s exec xfce4-screenshooter -w -m -s ~/Desktop
+
+# Nemo File Manager
+bindsym $mod+n exec nemo
