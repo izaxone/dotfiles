@@ -108,7 +108,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm i3
 modules-center = mpd
-modules-right = filesystem memory cpu pulseaudio lan eth date powermenu
+modules-right = filesystem memory cpu pulseaudio wlan eth date powermenu
 
 tray-position = right
 tray-padding = 2
