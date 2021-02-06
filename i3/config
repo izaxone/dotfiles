@@ -2,8 +2,6 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-# Start compton
-exec compton
 
 
 # Stop focusing on mouseover

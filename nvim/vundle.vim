@@ -17,10 +17,14 @@ let g:mdip_imgname = 'image'
 
 " vim-markdown
 Plugin 'godlygeek/tabular' " Aligns text for you GitHub godlygeek/tabular 
-Plugin 'plasticboy/vim-markdown' " GitHub plasticboy/vim-markdown
+" Plugin 'plasticboy/vim-markdown' " GitHub plasticboy/vim-markdown
 
 " Pale Night Theme
 Plugin 'drewtempelmeyer/palenight.vim'
+
+" firenvim
+Plugin 'glacambre/firenvim'
+
 
 " VUNDLE Call Vundle
 call vundle#end()
