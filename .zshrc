@@ -4,6 +4,10 @@ export EDITOR=/usr/bin/nvim
 
 # Prompt Style
 PROMPT="%B%F{220}[%f%b%B%F{49}@%f%b%F{158}%m%f %F{80}%t%f%B%F{220}]%f%b%B%F{214}%\>>%f%b "
+
+# Clonehero
+alias clonehero="sudo sshfs -o ssh_command='ssh -i /home/kevin/.ssh/id_rsa' -o allow_other,default_permissions kevin@10.0.1.4:'/media/Behemoth/kevin/Downloads/Gaming/Clone Hero/Songs' '/home/kevin/CloneHero/Songs';'/home/kevin/CloneHero/clonehero'"
+
 # Alias vi to nvim
 alias vi=nvim
 
