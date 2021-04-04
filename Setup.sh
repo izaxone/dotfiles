@@ -67,6 +67,9 @@ dconf dump /org/cinnamon > .local/share/cinnamon/cinnamon_dconf
 mklnkdir "Cinnamon" ".cinnamon" ".local/share/cinnamon"
 mklnkfile "Bash" ".bashrc"
 mklnkfile "ZSH" ".zshrc"
-mklnkfile "Neovim" ".config/nvim/init.vim"
+mklnkdir "Neovim" ".config/nvim"
 mklnkdir "i3" ".config/i3" ".config/i3status"
 mklnkdir "polybar" ".config/polybar"
+
+# Install Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.config/nvim/bundle/Vundle.vim
